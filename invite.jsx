@@ -8,7 +8,7 @@ const DETAILS = {
   eyebrow: "Together with their families",
   lede: "request the pleasure of your presence as they celebrate the beginning of a beautiful new journey together",
   day: "Sunday, the 27th of September 2027",
-  dateTime: "2027 · 4:30 in the afternoon",
+  dateTime: "2026 · 4:30 in the afternoon",
   venue: "Bagh Restaurant",
   location: "DHA Lahore, Punjab",
   familyGatheringTitle: "Family Gathering",
