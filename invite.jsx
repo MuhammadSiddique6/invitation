@@ -7,8 +7,8 @@ const MUSIC_URL =
 const DETAILS = {
   eyebrow: "Together with their families",
   lede: "request the pleasure of your presence as they celebrate the beginning of a beautiful new journey together",
-  day: "Sunday, the 27th of September 2027",
-  dateTime: "2026 · 4:30 in the afternoon",
+  day: "Sunday, the 27th of September 2026",
+  dateTime: "Timming · 4:30 to 6.30 p.m.",
   venue: "Bagh Restaurant",
   location: "DHA Lahore, Punjab",
   familyGatheringTitle: "Family Gathering",
@@ -17,7 +17,7 @@ const DETAILS = {
   familyGatheringLocation:
     "Bagh Restaurant Gold Crest Mall DHA Phase 4 · Lahore, Punjab",
   /* Pakistan Standard Time = UTC +05:00 */ countdownTarget:
-    "2026-09-27T18:30:00+05:00",
+    "2026-09-27T16:30:00+05:00",
 };
 /* ========================================================= COUNTDOWN ========================================================= */ function getTimeLeft(
   target,
@@ -179,6 +179,10 @@ function pad(value) {
                 {" "}
                 بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ{" "}
               </div>{" "}
+               <div className="family-note">
+              {" "}
+              <small>Grandson of Mr. and Mrs. Haji Muhammad Ehsan Khan</small>{" "}
+            </div>{" "}
             </div>{" "}
             <div className="gold-line" />{" "}
             {/* ============================================= EYEBROW ============================================= */}{" "}
@@ -250,7 +254,7 @@ function pad(value) {
             </div>{" "}
             <div className="urdu-subtitle">
               {" "}
-              عبدالرحمن &nbsp; ♥ &nbsp; نائمیرہ{" "}
+              عبدالرحمن &nbsp; ♥ &nbsp; نمیرہ{" "}
             </div>{" "}
             <div className="gold-line small" />{" "}
             {/* ============================================= EVENT DETAILS ============================================= */}{" "}
